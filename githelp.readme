@@ -1,0 +1,9 @@
+goto folder and git init, creates a new git repo
+git clone https://github.com/Ptyler649/mytalend.git
+cd into the repo folder that has been created now in the local folder
+make your file modifications in here
+git add * or git add <filename>, this sends the change to the local index
+git commit -m "commit message for changes", this sends change to local head
+git push origin master, push changes commit to the remote repo
+
+
