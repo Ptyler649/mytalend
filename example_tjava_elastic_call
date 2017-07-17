@@ -1,0 +1,15 @@
+
+//elastic.create(elasticserver:port,indexname,number of shards,number of replicas, boolean esindexflag);
+//elastic.create("localhost:9200","mynewindex",1,1,true);
+
+
+//elastic.read(elasticserver:port,indexname,typename,documentname,fieldname,searchname, boolean esindexflag);
+elastic.read("localhost:9200", "talendtest", "logs", "JOB", "error_1",  true);
+
+// elastic.update(elasticserver:port,indexname,typename,rowdata,indexflag boolean);
+//elastic.update("localhost:9200","talendtest","logs","error_1",true);
+
+// elastic.delete(elasticserver:port,indexname,boolean esindexflag);
+//elastic.delete("localhost:9200","mynewindex",true);
+
+
